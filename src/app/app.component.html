@@ -1,0 +1,93 @@
+<nav class="navbar navbar-dark bg-dark alig-items-center">
+  <div class="col-md-12">
+    <h1 class="text-center text-white">Portal Cliente</h1>
+  </div>
+</nav>
+
+<div class="container">
+  <form action="">
+  <div class="row">
+    <div class="form-group col-md-4">
+      <label for="">Cuenta asociada:</label>
+      <input type="text" class="form-control" aria-describedby="asociada"  maxlength="50"
+    > 
+    </div>
+  </div>
+  
+
+    <!-- Datos -->
+  <div class="row">
+    <div class="form-group col-md-6">
+      <label for="">Nombre:</label>
+      <input type="text" class="form-control" aria-describedby="nombre">
+    </div>
+    <div class="form-group col-md-4">
+        <label for="">RFC:</label>
+        <input type="text" class="form-control" aria-describedby="rfc"  maxlength="50">
+    </div>
+  </div>
+
+   <!-- Direccion  -->
+
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="">Domicilio:</label>
+        <input type="text" class="form-control" aria-describedby="domicilio">
+      </div>
+      <div class="form-group col-md-4">
+          <label for="">Fecha de Nacimiento:</label>
+          <input type="text" class="form-control" aria-describedby="nacimiento">
+      </div>
+    </div>
+
+   <!-- Conexion  -->
+
+   <div class="row">
+      <div class="form-group col-md-6">
+        <label for="">Estatus de conexión:</label>
+        <input type="text" class="form-control" aria-describedby="conexion">
+      </div>
+      <div class="form-group col-md-4">
+        <mat-radio-button value="1" color="primary">
+          Suspención del servicio por falta de Pago
+        </mat-radio-button>
+        <!--<mat-form-field>
+          <input matInput [matDatepicker]="picker"  >
+          <mat-datepicker-toggle matPrefix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>-->
+      </div>
+    </div>
+  
+   <!-- Folio  -->
+
+    <div class="row">
+      <div class="form-group col-md-6">
+        <label for="">Folio Generado:</label>
+        <input type="text" class="form-control" aria-describedby="folio">
+      </div>
+      <div class="form-group col-md-4">
+        <mat-radio-button value="2" color="primary">
+          Cobro de exceso en su recibo
+        </mat-radio-button>
+        <input type="text" class="form-control" aria-describedby="folio">
+      </div>
+    </div>
+
+  <!-- Aclaración  -->
+
+  <div class="row">
+    <div class="form-group col-md-6">
+      <label for="">Estatus de Aclaración:</label>
+      <input type="text" class="form-control" aria-describedby="estatus">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="">Comentario:</label>
+      <textarea class="form-control" aria-describedby="comentario"></textarea>
+    </div>
+  </div>
+
+  <button type="submit" class="btn btn-primary" >Finalizar</button>
+
+</form>
+ </div> 
